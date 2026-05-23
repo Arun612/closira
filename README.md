@@ -89,7 +89,7 @@ closira/
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/closira-agent.git
+git clone https://github.com/Arun612/closira.git
 cd closira-agent
 ```
 
