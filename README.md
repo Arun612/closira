@@ -1,6 +1,6 @@
 # Closira AI Customer Support Workflow
 
-An AI-powered customer support agent for **Bloom Aesthetics Clinic**, built for the Closira AI Engineering Intern assignment.
+An AI-powered customer support agent for **Bloom Aesthetics Clinic**
 
 Handles a simulated end-to-end customer conversation across four stages — FAQ answering, lead qualification, escalation detection, and conversation summary — via a Python CLI using the **Groq API (LLaMA 3.3 70B)**.
 
