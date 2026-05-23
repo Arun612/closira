@@ -52,7 +52,7 @@ Customer Input
 ## Project Structure
 
 ```
-closira-agent-v2/
+closira-agent/
 │
 ├── main.py                        # CLI entry point and conversation loop
 ├── sop.json                       # Extended SOP for Bloom Aesthetics Clinic
@@ -91,8 +91,8 @@ closira-agent-v2/
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/closira-agent-v2.git
-cd closira-agent-v2
+git clone https://github.com/YOUR_USERNAME/closira-agent.git
+cd closira-agent
 ```
 
 ### 2. Install Dependencies
