@@ -1,0 +1,146 @@
+{
+  "business_name": "Bloom Aesthetics Clinic",
+  "tagline": "Your beauty, our expertise",
+  "hours": {
+    "monday": "9:00 AM - 7:00 PM",
+    "tuesday": "9:00 AM - 7:00 PM",
+    "wednesday": "9:00 AM - 7:00 PM",
+    "thursday": "9:00 AM - 7:00 PM",
+    "friday": "9:00 AM - 7:00 PM",
+    "saturday": "9:00 AM - 5:00 PM",
+    "sunday": "Closed",
+    "bank_holidays": "Closed"
+  },
+  "contact": {
+    "booking_channels": ["WhatsApp", "Website"],
+    "note": "Direct phone number and email are provided by a human agent upon request"
+  },
+  "services": [
+    {
+      "name": "Botox (Botulinum Toxin)",
+      "category": "Injectables",
+      "price_from": 200,
+      "currency": "GBP",
+      "areas": ["Forehead lines", "Frown lines (glabella)", "Crow's feet", "Brow lift", "Bunny lines", "Lip flip", "Jawline slimming (masseter)", "Neck bands (Nefertiti lift)"],
+      "duration_minutes": 30,
+      "results_visible": "3-7 days",
+      "results_last": "3-6 months",
+      "sessions_recommended": "Maintenance every 3-6 months",
+      "notes": "Prices start from £200; final price depends on area treated and units required. Discussed at consultation."
+    },
+    {
+      "name": "Dermal Fillers",
+      "category": "Injectables",
+      "price_from": 250,
+      "currency": "GBP",
+      "areas": ["Lips", "Cheeks", "Nasolabial folds (smile lines)", "Marionette lines", "Chin", "Jawline", "Tear troughs (under eyes)", "Nose (non-surgical rhinoplasty)"],
+      "duration_minutes": 45,
+      "results_visible": "Immediate",
+      "results_last": "6-18 months depending on area",
+      "sessions_recommended": "Top-up as needed after 6-12 months",
+      "notes": "Prices from £250; vary by area and volume of filler used."
+    },
+    {
+      "name": "Consultation",
+      "category": "Consultation",
+      "price_from": 0,
+      "currency": "GBP",
+      "duration_minutes": 30,
+      "notes": "Free initial consultation for all new clients. Patch test may be required 48 hours before certain treatments."
+    },
+    {
+      "name": "Anti-Wrinkle Treatment",
+      "category": "Injectables",
+      "price_from": 180,
+      "currency": "GBP",
+      "notes": "Covers fine line relaxation for early-stage wrinkles. Suitable for prevention as well as treatment."
+    },
+    {
+      "name": "Skin Boosters (Profhilo / Hydrafill)",
+      "category": "Skin Treatments",
+      "price_from": 300,
+      "currency": "GBP",
+      "duration_minutes": 30,
+      "results_last": "6 months",
+      "sessions_recommended": "2 sessions, 4 weeks apart, then maintenance every 6 months",
+      "notes": "Deeply hydrates and remodels skin. Not a filler — spreads under the skin to improve elasticity and glow."
+    },
+    {
+      "name": "Chemical Peels",
+      "category": "Skin Treatments",
+      "price_from": 120,
+      "currency": "GBP",
+      "types": ["Superficial (lunchtime peel)", "Medium depth"],
+      "duration_minutes": 45,
+      "notes": "Improves skin texture, pigmentation, and tone. Mild peeling may occur 2-5 days post-treatment."
+    },
+    {
+      "name": "Microneedling (Collagen Induction Therapy)",
+      "category": "Skin Treatments",
+      "price_from": 150,
+      "currency": "GBP",
+      "duration_minutes": 60,
+      "sessions_recommended": "3-6 sessions, 4-6 weeks apart",
+      "notes": "Stimulates collagen production. Downtime: mild redness for 24-48 hours."
+    },
+    {
+      "name": "Vitamin Infusion Drips (IV Therapy)",
+      "category": "Wellness",
+      "price_from": 150,
+      "currency": "GBP",
+      "types": ["Immunity Boost", "Skin Glow", "Energy & Hydration", "Hair & Nail Strength"],
+      "duration_minutes": 45,
+      "notes": "Administered by qualified nurse. Patch test and health screening required before first session."
+    }
+  ],
+  "booking_policy": {
+    "cancellation_notice_hours": 24,
+    "late_cancellation_fee": "50% of treatment cost",
+    "no_show_fee": "Full treatment cost",
+    "deposit_required": true,
+    "deposit_note": "A deposit may be required to secure bookings for certain treatments",
+    "minimum_age": 18,
+    "patch_test": "Required 48 hours before first injectable or skin treatment for new clients"
+  },
+  "faqs": [
+    {
+      "question": "Is Botox safe?",
+      "answer": "All our treatments are carried out by qualified medical professionals. Safety and client wellbeing are our top priority. We recommend a free consultation to discuss your medical history before any treatment."
+    },
+    {
+      "question": "How long does Botox last?",
+      "answer": "Botox results typically last 3 to 6 months, depending on the individual and the area treated. Regular maintenance helps results last longer over time."
+    },
+    {
+      "question": "Is there any downtime after fillers?",
+      "answer": "Most clients experience mild swelling or bruising for 24-72 hours after dermal fillers. We advise avoiding strenuous exercise, alcohol, and extreme heat for 24 hours post-treatment."
+    },
+    {
+      "question": "Can I book online?",
+      "answer": "Yes! You can book via WhatsApp or through our website. We'll confirm your appointment and send a reminder 24 hours before."
+    },
+    {
+      "question": "Do you offer payment plans?",
+      "answer": "Payment plan options are discussed during consultation. Please speak with our team directly for details."
+    },
+    {
+      "question": "What should I do before my appointment?",
+      "answer": "Arrive with clean skin, free of makeup where possible. Avoid alcohol for 24 hours before injectables. New clients should arrive 10 minutes early to complete a health form."
+    }
+  ],
+  "escalation_rules": [
+    "Customer complaint or dissatisfaction",
+    "Medical question, health concern, or adverse reaction query",
+    "Pricing negotiation or discount request",
+    "Request for specific medical or clinical advice",
+    "More than 2 questions the AI cannot answer from the SOP",
+    "Customer requests to speak to a human or manager",
+    "Questions about ongoing or past treatments at another clinic"
+  ],
+  "staff": {
+    "note": "Staff names and direct contact details are not shared via the AI assistant. A team member will be assigned upon booking."
+  },
+  "location": {
+    "note": "Clinic address and directions are provided upon booking confirmation by a human team member."
+  }
+}
