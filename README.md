@@ -4,8 +4,6 @@ An AI-powered customer support agent for **Bloom Aesthetics Clinic**, built for 
 
 Handles a simulated end-to-end customer conversation across four stages — FAQ answering, lead qualification, escalation detection, and conversation summary — via a Python CLI using the **Groq API (LLaMA 3.3 70B)**.
 
-> **Note on API choice:** The workflow is fully API-agnostic by design. While the assignment specifies OpenAI or Claude, this implementation uses Groq as a cost-free alternative. Switching providers requires changing only the client initialization in `agent/stages.py` — all prompt logic, stage routing, and escalation detection remain identical.
-
 ---
 
 ## Architecture
@@ -52,7 +50,7 @@ Customer Input
 ## Project Structure
 
 ```
-closira-agent/
+closira/
 │
 ├── main.py                        # CLI entry point and conversation loop
 ├── sop.json                       # Extended SOP for Bloom Aesthetics Clinic
