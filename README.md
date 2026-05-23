@@ -90,7 +90,7 @@ closira/
 
 ```bash
 git clone https://github.com/Arun612/closira.git
-cd closira-agent
+cd closira
 ```
 
 ### 2. Install Dependencies
