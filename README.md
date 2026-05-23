@@ -52,6 +52,7 @@ Customer Input
 ```
 closira/
 │
+├── .gitignore                     # Git ignore rules
 ├── main.py                        # CLI entry point and conversation loop
 ├── sop.json                       # Extended SOP for Bloom Aesthetics Clinic
 ├── .env.example                   # Environment variable template
